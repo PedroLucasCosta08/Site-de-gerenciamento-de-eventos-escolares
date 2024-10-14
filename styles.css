@@ -1,0 +1,89 @@
+body{
+    background-image: url('imagem/imagem2.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;    
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button{
+    background-color:   rgb(87, 112, 112);
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 15px;
+}
+
+.caixalogin {
+    background-color: whitesmoke;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    text-align: center;
+}
+
+.caixacadastro {
+    background-color: whitesmoke;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 500px;
+    max-height: 90vh;
+    overflow-y: auto;
+    text-align: center;
+    margin: 30px;
+}
+
+.radio{
+    display: inline-block;
+    margin-right: 10px; 
+    white-space: nowrap;
+}
+
+.ref {
+    display: block;
+    margin-top: 20px;
+    text-decoration: underline; 
+    color: #007bff; 
+    cursor: pointer;
+}
+
+.ref:hover {
+    color: #0056b3;
+}
+
+p{
+    color:black;
+}
+
+h1{
+    font-size: 30px;
+}
+
+.erro {
+    color: red;
+    font-weight: bold;
+    margin-top: 10px;
+}
